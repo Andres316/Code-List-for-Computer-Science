@@ -29,3 +29,10 @@ while balance <TARGET:
 # step 4, print the results
 
 print("The investment tripled after", year, "years.")
+
+import turtle
+
+for i in range(1000):
+    turtle.forward(i)
+    turtle.right(20)
+    turtle.speed(100)
