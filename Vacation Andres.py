@@ -23,3 +23,7 @@ def rental_car_cost(days):
         cost= cost-20
     return cost 
     
+def trip_cost(days,city, spending_money):
+    return hotel_cost(days)+rental_car_cost(days)+plane_ride_cost(city)+spending_money
+
+print( "The total cost of the trip is", trip_cost(6,"Tampa", 2000)) 
